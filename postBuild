@@ -1,3 +1,5 @@
 jupyter contrib nbextension install --user
 jupyter nbextensions_configurator enable --user
+jupyter trust 1_cifar_keras_EXERCICE.ipynb
 jupyter trust 1_cifar_keras_EXERCICE_WITH_SOLUTION.ipynb
+jupyter trust 1_cifar_keras_SOLUTION.ipynb

@@ -38,6 +38,6 @@ You'll need to run `docker logs <container_id>` to retrieve the token for your n
 
 __Do not forget__
 
-Run `docker stop <container_id>` when you have finished.
+Run `docker stop <container_id>` when you have finished. 
 
 

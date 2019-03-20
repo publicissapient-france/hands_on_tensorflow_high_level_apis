@@ -89,6 +89,8 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
+tf2_devoxx19/
+.tf2_devoxx19
 .env
 .venv
 env/

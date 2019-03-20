@@ -10,6 +10,8 @@ RUN pip install scikit-learn==0.20.1
 RUN pip install ipywidgets==7.4.2
 RUN pip install jupyter_contrib_nbextensions==0.5.1
 RUN pip install jupyter_nbextensions_configurator==0.4.1
+RUN jupyter contrib nbextension install --user
+RUN jupyter nbextensions_configurator enable --user
 
 
 CMD jupyter notebook --allow-root --ip="0.0.0.0"

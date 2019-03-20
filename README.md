@@ -85,6 +85,8 @@ Install requirements and launch notebooks:
 
 ```
 pip3 install --upgrade -r requirements.txt
+jupyter contrib nbextension install --user
+jupyter nbextensions_configurator enable --user
 jupyter notebook
 ```
 

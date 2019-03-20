@@ -1,6 +1,7 @@
-numpy
-matplotlib
-ipywidgets
-jupyter_contrib_nbextensions
-jupyter_nbextensions_configurator
-tensorflow==1.12
+jupyter==1.0.0
+numpy==1.16.2
+matplotlib==3.0.2
+ipywidgets==7.4.2
+jupyter_contrib_nbextensions==0.5.1
+jupyter_nbextensions_configurator==0.4.1
+tensorflow==2.0.0a0

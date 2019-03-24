@@ -30,7 +30,7 @@ USER ${NB_USER}
 RUN jupyter contrib nbextension install --user
 RUN jupyter nbextensions_configurator enable --user
 
-WORKDIR /devoxx19
+WORKDIR ${HOME}
 EXPOSE 8888
 
-CMD jupyter notebook --notebook-dir=/devoxx19 --allow-root --ip="0.0.0.0"
+CMD jupyter notebook --notebook-dir=${HOME} --allow-root --ip="0.0.0.0"

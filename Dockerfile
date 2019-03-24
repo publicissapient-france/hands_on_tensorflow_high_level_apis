@@ -10,6 +10,23 @@ RUN pip3 install scikit-learn==0.20.1
 RUN pip3 install ipywidgets==7.4.2
 RUN pip3 install jupyter_contrib_nbextensions==0.5.1
 RUN pip3 install jupyter_nbextensions_configurator==0.4.1
+
+ARG NB_USER=jovyan
+ARG NB_UID=1000
+ENV USER ${NB_USER}
+ENV NB_UID ${NB_UID}
+ENV HOME /home/${NB_USER}
+
+RUN adduser --disabled-password \
+    --gecos "Default user" \
+    --uid ${NB_UID} \
+    ${NB_USER}
+
+COPY . ${HOME}
+USER root
+RUN chown -R ${NB_UID} ${HOME}
+USER ${NB_USER}
+
 RUN jupyter contrib nbextension install --user
 RUN jupyter nbextensions_configurator enable --user
 

@@ -34,7 +34,7 @@ docker images
 __Run__
 
 ```
-docker run -d -p 8080:8888 -p 8006:8006 -v $PWD:/tf/notebooks tf2_devoxx19
+docker run -d -p 8888:8888 -p 6006:6006 tf2_devoxx19
 ```
 
 __Check container id__
@@ -45,7 +45,7 @@ docker ps
 
 __Next__
 
-Open in browser at http://127.0.0.1:8080
+Open in browser at http://127.0.0.1:8888
 
 To retrieve the token for your notebooks type
 ```

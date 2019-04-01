@@ -10,6 +10,8 @@ RUN pip3 install scikit-learn==0.20.1
 RUN pip3 install ipywidgets==7.4.2
 RUN pip3 install jupyter_contrib_nbextensions==0.5.1
 RUN pip3 install jupyter_nbextensions_configurator==0.4.1
+RUN pip3 install jupyter-tensorboard==0.1.9
+RUN pip3 install tensorflow-hub==0.3.0
 
 ARG NB_USER=jovyan
 ARG NB_UID=1000

@@ -3,3 +3,7 @@ jupyter nbextensions_configurator enable --user
 jupyter trust 1_cifar_keras_EXERCICE.ipynb
 jupyter trust 1_cifar_keras_EXERCICE_WITH_SOLUTION.ipynb
 jupyter trust 1_cifar_keras_SOLUTION.ipynb
+jupyter trust 2_cifar_keras_data_EXERCICE_WITH_SOLUTION.ipynb
+jupyter trust 3_cifar_keras_data_augment_EXERCICE_WITH_SOLUTION.ipynb
+jupyter trust 4_cifar_keras_data_augment_transfer_EXERCICE_WITH_SOLUTION.ipynb
+jupyter trust 5_cifar_keras_data_augment_hub_EXERCICE_WITH_SOLUTION.ipynb

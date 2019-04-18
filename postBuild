@@ -1,5 +1,6 @@
 jupyter contrib nbextension install --user
 jupyter nbextensions_configurator enable --user
+jupyter trust 0_tensorflow_basics.ipynb
 jupyter trust 1_cifar_keras_EXERCICE_WITH_SOLUTION.ipynb
 jupyter trust 2_cifar_keras_data_EXERCICE_WITH_SOLUTION.ipynb
-jupyter trust 3_cifar_keras_data_transfer_EXERCICE_WITH_SOLUTION.ipynb
+jupyter trust 3_cifar_keras_data_hub_EXERCICE_WITH_SOLUTION.ipynb

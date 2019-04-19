@@ -5,13 +5,14 @@ RUN pip3 install matplotlib==3.0.2
 RUN pip3 install numpy==1.15.4
 RUN pip3 install scipy==1.2.0
 RUN pip3 install Pillow==5.3.0
-RUN pip3 install pandas==0.23.4
+RUN pip3 install pandas==0.24.2
 RUN pip3 install scikit-learn==0.20.1
 RUN pip3 install ipywidgets==7.4.2
 RUN pip3 install jupyter_contrib_nbextensions==0.5.1
 RUN pip3 install jupyter_nbextensions_configurator==0.4.1
 RUN pip3 install jupyter-tensorboard==0.1.9
 RUN pip3 install tensorflow-hub==0.3.0
+RUN pip3 install tensorflow-datasets==1.0.1
 
 ARG NB_USER=jovyan
 ARG NB_UID=1000

@@ -1,5 +1,7 @@
 jupyter==1.0.0
 numpy==1.16.2
+pandas==0.24.2
+scikit-learn==0.20.1
 matplotlib==3.0.2
 ipywidgets==7.4.2
 jupyter_contrib_nbextensions==0.5.1
@@ -7,3 +9,4 @@ jupyter_nbextensions_configurator==0.4.1
 tensorflow==2.0.0a0
 jupyter-tensorboard==0.1.9
 tensorflow-hub==0.3.0
+tensorflow-datasets==1.0.1
